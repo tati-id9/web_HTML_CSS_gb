@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_logos {
+    margin-top: 40px;
+    margin-bottom: 87,71px;
+}
+
+.header__link {
+    margin-top: 51px;
+    margin-bottom: 94.71px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.top__buttons {
+    padding-top: 37px;
+    padding-bottom: 103px;
+
+}
+
+.button1 {
+    color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.button2 {
+    border: 0;
+    background: #ffffff;
+    color: #AAA;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+}
+
+.top_logo {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
