@@ -110,8 +110,10 @@ a {
 }
 .brands_logo {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.itm{
+    margin-right: 48px;
 }
