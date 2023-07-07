@@ -34,7 +34,7 @@ a {
     margin-top: 51px;
     margin-bottom: 94.71px;
 }
-.header__link__aktiv{
+.header__link__active{
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
@@ -101,7 +101,7 @@ a {
 }
 
 .main_right {
-padding-left: 40px;
+    padding-left: 40px;
 }
 
 .footer{
@@ -109,7 +109,6 @@ padding-left: 40px;
     padding-bottom: 96px;
 }
 .brands_logo {
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
