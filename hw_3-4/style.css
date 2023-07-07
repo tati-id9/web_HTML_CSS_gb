@@ -38,18 +38,12 @@ a {
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding: 7px;
 }
 .header__link{
     color: black;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding: 7px;
 }
 
@@ -66,8 +60,17 @@ a {
 
 .title {
     margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
 }
 
+.text{
+    margin-bottom: 52px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+}
 .top__buttons {
     padding-top: 37px;
     padding-bottom: 103px;
@@ -86,9 +89,6 @@ a {
     color: #FFF;
     font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .button2 {
@@ -97,7 +97,10 @@ a {
     color: #AAA;
     font-size: 15px;
     font-family: Gilroy-Bold;
-    font-style: normal;
+}
+
+.main_left {
+    width: 30%;
 }
 
 .main_right {
