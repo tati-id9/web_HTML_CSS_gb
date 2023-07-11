@@ -8,14 +8,16 @@ a {
     text-decoration: none;
 }
 
+.header {
+     margin-bottom: 84px;
+}
+
 .container{
-    width: 1920px;
+    width: 1170px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: baseline;
-    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .header_logos{
@@ -31,20 +33,23 @@ a {
 }
 
 .header__nav {
-    margin-top: 51px;
-    margin-bottom: 94.71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 533px;
 }
+
 .header__link__active{
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    padding: 7px;
+    padding-bottom: 12px;
 }
 .header__link{
     color: black;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    padding: 7px;
+    padding-bottom: 12px;
 }
 
 .main{
@@ -53,9 +58,7 @@ a {
 
 .top__content{
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .title {
@@ -71,52 +74,36 @@ a {
     font-family: Gilroy-Medium;
     font-size: 20px;
 }
-.top__buttons {
-    padding-top: 37px;
-    padding-bottom: 103px;
-}
 
-.button1 {
-    border-radius: 50px;
-    background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-}
-.button_link_start{
-    padding-top: 15px;
-    padding-bottom: 16px;
-    padding-left: 35px;
-    padding-right: 36px;
+.btn { 
+    padding: 15px 36px 16px 35px;
     color: #FFF;
-    font-family: Gilroy-Bold;
-    font-size: 15px;
-}
-
-.button2 {
-    border: 0;
-    background: #ffffff;
-    color: #AAA;
     font-size: 15px;
     font-family: Gilroy-Bold;
+    font-weight: 600;
+    background: #F25822;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 3px solid transparent;
 }
 
-.main_left {
-    width: 30%;
+.btn:hover {
+    border: 3px, solid, rgba(242, 88, 34, 0.20);
+    color: #888;
+    background-color: #FFF;
+    transition: all 0,3s;
 }
 
-.main_right {
-    padding-left: 40px;
+.main_left, .main_right {
+    width: 48%;
 }
 
-.footer{
-    padding-top: 97px;
-    padding-bottom: 96px;
-}
-.brands_logo {
+.flex {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .itm{
-    margin-right: 48px;
+    padding-top: 97px;
 }
