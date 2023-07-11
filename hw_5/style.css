@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(fonts/gilroy-medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(fonts/gilroy-regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(fonts/gilroy-semibold.ttf);
+}
+
 a {
     text-decoration: none;
 }
@@ -43,13 +63,17 @@ a {
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    padding-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .header__link{
     color: black;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    padding-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .main{
@@ -64,25 +88,34 @@ a {
 
 .title {
     margin-bottom: 17px;
+    padding-right: 41px;
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
-    padding-right: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .text{
     margin-bottom: 52px;
+    padding-right: 41px;
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
-    padding-right: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .btn { 
     padding: 15px 36px 16px 35px;
     color: #FFF;
-    font-size: 15px;
     font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     font-weight: 600;
     background: #F25822;
     border-radius: 50px;
