@@ -9,7 +9,7 @@ a {
 }
 
 .header {
-     margin-bottom: 84px;
+     margin-bottom: 95px;
 }
 
 .container{
@@ -59,6 +59,7 @@ a {
 .top__content{
     display: flex;
     justify-content: space-between;
+
 }
 
 .title {
@@ -66,6 +67,7 @@ a {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
+    padding-right: 41px;
 }
 
 .text{
@@ -73,6 +75,7 @@ a {
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
+    padding-right: 41px;
 }
 
 .btn { 
